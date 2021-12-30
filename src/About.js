@@ -1,9 +1,11 @@
 import React from "react"
+import ProfilCard from "./elements/ProfilCard";
  
-function AboutMe(props) {
+function AboutMe() {
   return (
-    <div>
+    <div className="About-me">
       <h1>Everything you should know about me!</h1>
+      <ProfilCard/>
     </div>
   )
 }
