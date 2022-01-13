@@ -71,15 +71,43 @@ text-align: left;
   letter-spacing: 4px;
 }
 
-.img-box {
+/* .img-box {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-}
+} */
 
-img {
+/* img {
   height: 300px;
   width: 350px;
+} */
+
+.projects {
+  display: grid;
+  /* grid-column-gap: 5px;
+  grid-row-gap: 5px; */
+  background-color: #0D4378;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  margin: 50px;
 }
 
+.weather{
+background-color: blue;
+border-top-left-radius: 25%;
+
+}
+
+.clock{
+  background-color: red;
+}
+
+.noName{
+  background-color: pink;
+  border-top-right-radius: 25%;
+}
+
+.WeatherInput {
+  margin: 50px;
+}

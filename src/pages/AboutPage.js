@@ -1,5 +1,5 @@
 import React from "react"
-import ProfilCard from "./elements/ProfilCard";
+import ProfilCard from "../elements/ProfilCard";
  
 function AboutMe() {
   return (
